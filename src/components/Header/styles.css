@@ -1,9 +1,19 @@
+header {
+  margin-bottom: 25px;
+}
+
 #class-info {
-    display: flex;
-    justify-content: space-between;
-  }
+  display: flex;
+  justify-content: space-between;
+}
+
+#class-title {
+  margin: 20px;
+  font-size: 35px;
+}
+
+#student-info {
+  display: flex;
+  flex-direction: column;
+}
   
-  #student-info {
-    display: flex;
-    flex-direction: column;
-  }

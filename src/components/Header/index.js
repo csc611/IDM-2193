@@ -8,7 +8,7 @@ function Header() {
       <header>
           <div id="class-info">
             
-            <span>IDM-2193C Web Dev</span>
+            <span id="class-title">IDM-2193C Web Dev</span>
 
             <div id="student-info">
                 <span>Caroline Cho</span>

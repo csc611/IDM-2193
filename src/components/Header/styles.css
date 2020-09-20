@@ -1,0 +1,9 @@
+#class-info {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #student-info {
+    display: flex;
+    flex-direction: column;
+  }

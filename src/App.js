@@ -1,36 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
+import {Switch, Route} from 'react-router-dom';
 import './App.css';
+import Home from './components/Home';
+import Week1 from './components/Week1';
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Switch>
+        <Route to="/" component={Home} />
+        <Route to="/week-1" component={Week1} />
+      </Switch>
     </div>
-  );
-}
-
-function Header() {
-  return (
-    <div>
-      <header>
-        <div id="class-info">
-          <span>IDM-2193C Web Dev</span>
-
-          <div id="student-info">
-            <span>Caroline Cho</span>
-            <span>Prof. Leopold</span>
-            <span>{Date.now()}</span>
-          </div>
-
-        </div>
-      </header>
-
-      <div id="nav-bar">
-        
-      </div>
-    </div>
-
   );
 }
 

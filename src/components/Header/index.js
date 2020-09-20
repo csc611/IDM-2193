@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles.css';
+import NavBar from '../NavBar';
 
 function Header() {
   return (
@@ -18,9 +19,7 @@ function Header() {
           </div>
       </header>
 
-      <div id="nav-bar">
-
-      </div>
+      <NavBar />
     </div>
   );
 }

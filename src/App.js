@@ -8,8 +8,15 @@ function App() {
   return (
     <div className="App">
       <Switch>
-        <Route to="/" component={Home} />
-        <Route to="/week-1" component={Week1} />
+        <Route path="/" exact component={Home} />
+        <Route path="/week-1" component={Week1} />
+        <Route path="/week-2" />
+        <Route path="/week-3" />
+        <Route path="/week-4" />
+        <Route path="/week-5" />
+        <Route path="/week-6" />
+        <Route path="/week-7" />
+        <Route path="/week-8" />
       </Switch>
     </div>
   );

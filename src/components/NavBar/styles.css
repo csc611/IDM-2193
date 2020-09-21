@@ -1,6 +1,14 @@
 #nav-bar-link-wrapper {
   display: flex;
   justify-content: space-around;
-  background-color: rgb(223, 223, 223);
+  background-color: #1a1b1c;
   padding: 15px;
+}
+
+.link {
+  color: white;
+}
+
+.link:hover {
+color: #b6c7e3;
 }

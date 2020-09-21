@@ -1,19 +1,18 @@
-header {
-  margin-bottom: 25px;
-}
-
 #class-info {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 #class-title {
   margin: 20px;
   font-size: 35px;
+  font-weight: 700;
 }
 
 #student-info {
   display: flex;
   flex-direction: column;
+  margin-right: 25px;
 }
   

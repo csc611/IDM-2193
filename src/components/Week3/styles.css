@@ -1,3 +1,8 @@
+main {
+  display: flex;
+  flex-direction: column;
+}
+
 #page-title {
   margin-top: 50px;
   font-weight: 700;
@@ -6,6 +11,19 @@
 
 #page-content {
   margin: 20px;
+  align-self: center;
+  width: 950px;
+  padding: 25px 45px;
+  background-color: #f4f8ff;
+}
+
+#page-content > p {
+  text-align: justify;
+}
+
+figcaption {
+  font-size: 12.5px;
+  font-style: italic;
 }
 
 #drawings {

@@ -1,3 +1,20 @@
 #page-title {
   margin-top: 50px;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+#page-content {
+  margin: 20px;
+}
+
+#drawings {
+  width: 350px;
+  margin-bottom: 20px;
+}
+
+#yuumi {
+  border: 7px solid black;
+  width: 500px;
+  margin: 20px 0;
 }

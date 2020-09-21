@@ -13,7 +13,6 @@ function Header() {
             <div id="student-info">
                 <span>Caroline Cho</span>
                 <span>Prof. Leopold</span>
-                <span>{Date.now()}</span>
             </div>
 
           </div>

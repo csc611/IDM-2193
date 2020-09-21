@@ -1,4 +1,6 @@
 #nav-bar-link-wrapper {
   display: flex;
   justify-content: space-around;
+  background-color: rgb(223, 223, 223);
+  padding: 15px;
 }
